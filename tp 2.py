@@ -41,10 +41,10 @@ def principal():
     condicion_minvalida1=False
     condicion_minvalida2=False
     for line in texto:
-        nombre_destinatario=line[0:20].strip()
+        nombre_destinatario=line[0:20]
         codigo_identificacion=line[20:30].strip()
-        orden_de_pago=line[30:40].strip()
-        monto_nominal=line[40:50].strip()
+        orden_de_pago=line[30:40]
+        monto_nominal=line[40:50]
         ide_algoritmo_comision=line[50:52]
         ide_algoritmo_impositvo=line[52:54]
         
